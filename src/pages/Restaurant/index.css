@@ -1,0 +1,16 @@
+.restaurant__mainContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #EDEDED;
+}
+
+.restaurant__mainContainer__detailsContainer {
+  display: grid;
+  margin: auto;
+  grid-template-rows: 1fr 3fr;
+  height: 90vh;
+  width: 60vw;
+  background-color: #FFFFFF;
+}

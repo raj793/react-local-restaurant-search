@@ -1,0 +1,15 @@
+.review__listItem {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ededed;
+  padding: 1rem;
+}
+
+.review__listItem__info {
+  display: grid;
+  place-items: center;
+}
+.review__listItem__info > p {
+  font-size: 0.5rem;
+  font-style: italic;
+}

@@ -1,0 +1,35 @@
+.app__topbar {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100vw;
+  height: 50px;
+  background-color: #FFFFFF;
+  justify-content: center;
+  align-items: center;
+}
+
+.app__searchContainer {
+  display: flex;
+  flex-direction: row;
+  width: 20rem;
+  place-items: center;
+  background-color: #ededed;
+  border-radius: 10px;
+}
+
+.app__searchContainer__iconContainer {
+  display: flex;
+  place-items: center;
+  width: 3rem;
+}
+
+.app__searchContainer > input {
+  height: 20px;
+  width: 100%;
+  border: none;  
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ededed;
+}

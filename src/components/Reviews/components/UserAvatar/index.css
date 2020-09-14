@@ -1,0 +1,25 @@
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.userAvatar__main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+}
+
+.userAvatar__name {
+  font-size: 0.8rem;
+  padding: 0.2rem;
+
+}
+
+.userAvatar__handle {
+  font-size: 0.6rem;
+  font-weight: 200;
+}
