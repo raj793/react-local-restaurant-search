@@ -8,7 +8,7 @@ const Topbar = ({searchCallback}) => {
   const [checked, setChecked] = useState(false)
 
   const toggleCheckbox = () => {
-    callSearch(!checked)
+    callSearch()
     setChecked(!checked)
   }
 
@@ -16,8 +16,8 @@ const Topbar = ({searchCallback}) => {
     setKeyword(e.target.value)
   }
 
-  const callSearch = (sort) => {
-    searchCallback(keyword, sort)
+  const callSearch = () => {
+    searchCallback(keyword, !checked)
   }
 
   return (
