@@ -7,8 +7,8 @@ Initialize API_KEY in config.js with the access token.
 Install Yarn if not already present https://classic.yarnpkg.com/en/docs/install#mac-stable
 
 Run project in terminal:
-## 1. yarn
-## 2. yarn start
+### 1. yarn
+### 2. yarn start
 
 ## Available Scripts
 
