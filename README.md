@@ -1,5 +1,15 @@
 # React Local Restaurant Search using Zomato API
 
+Get access token here: https://developers.zomato.com/api
+
+Initialize API_KEY in config.js with the access token.
+
+Install Yarn if not already present https://classic.yarnpkg.com/en/docs/install#mac-stable
+
+Run project in terminal:
+## 1. yarn
+## 2. yarn start
+
 ## Available Scripts
 
 In the project directory, you can run:
